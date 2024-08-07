@@ -1,0 +1,50 @@
+img{
+ 
+    width: 100%;
+    margin: 0;
+}
+
+/*jai cree un div de classe conteneur pour pouvoir passe ses elements en grid*/
+.conteneur{
+    display: grid;
+    grid-template-columns: 900px 900px;
+    grid-template-rows: 200px 200px;
+    width: 100%;
+    gap: 10px; /*pour separer les colonnes*/
+   /* background-color: yellow;/*/
+    margin-top: 50px;
+    margin-left: 100px;
+    justify-content: center; 
+    margin: 0;
+}
+.box{
+    border: 1px solid ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(230, 226, 29); 
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h2{
+    color: blue;
+    text-align: center;
+    transform: rotate(90deg);
+    text-align: center;
+   margin-top: 75px;
+}
+/*on choisitl apparance global de notre page*/
+body{
+    background-color: rgb(94, 201, 6);
+    margin: 0;
+}
+button {
+    margin-top: 50px;
+    margin-left: 95%;
+    width: 100px;
+    height: 70px;
+    border-radius: 50%;
+
+}
